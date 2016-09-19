@@ -1,0 +1,52 @@
+{
+  "name": "electron-express-packaging",
+  "version": "1.0.0",
+  "description": "An example using electron, express and native modules.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pack": "build --dir",
+    "dist": "build",
+    "rebuild": "electron-rebuild -f -w [my module]"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alex-Ayala-Bonilla/electron-express-packaging.git"
+  },
+  "keywords": [
+    "electron",
+    "express",
+    "native",
+    "modules"
+  ],
+  "author": "Jesus Alejandro Ayala Bonilla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alex-Ayala-Bonilla/electron-express-packaging/issues"
+  },
+  "homepage": "https://github.com/Alex-Ayala-Bonilla/electron-express-packaging#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cli-color": "^1.1.0",
+    "debug": "^2.2.0",
+    "electron-rebuild": "^1.2.1",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0",
+    "socket.io": "^1.4.8"
+  },
+  "devDependencies": {
+    "electron": "1.4.0",
+    "electron-builder": "6.7.7",
+    "electron-rebuild": "^1.2.1",
+    "mocha": "^3.0.2",
+    "nodeGypRebuild": true
+  },
+  "build": {
+    "appId": "example.id",
+    "category": "example",
+    "win": {
+      "iconUrl": ""
+    }
+  }
+}

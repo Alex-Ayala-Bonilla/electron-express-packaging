@@ -1,0 +1,26 @@
+# Temporary files
+*.un~
+*.tmp
+*.swp
+*.swo
+*.log
+
+# Binaries and generated directories
+node_modules/
+dist/
+*._0
+*.0
+data/local.ns
+*.lock
+*.msi
+*.ns
+*.zip
+data/journal/lsn
+data/diagnostic.data/metrics.2016-07-29T23-51-29Z-00000
+*.2016-08-01T18-11-45Z-00000
+data/diagnostic.data/metrics.2016-08-01T18-48-00Z-00000
+*.2016-08-02T01-21-28Z-00000
+data/storage.bson
+*.0003
+data/diagnostic.data/metrics.interim
+data/
