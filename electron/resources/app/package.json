@@ -46,7 +46,7 @@
     "appId": "example.id",
     "category": "example",
     "win": {
-      "iconUrl": ""
+      "iconUrl": "https://github.com/Alex-Ayala-Bonilla/electron-express-packaging/blob/master/electron/resources/app/img/icon.png"
     }
   }
 }
